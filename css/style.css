@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50PX 10PX;
+    border: 10px;
+    border-radius: 10px;
+    background: url('../assets/bg.png');
+    background-size: cover;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.container>h2{
+    font-size: 60px;
+    color: black;
+}
+
+.playersCont{
+    width: 35%;
+    font-size: 26px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.player{
+    color: rgb(181, 7, 7);
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.moveCont{
+    text-align: center;
+}
+
+.moverHeading{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.movesLeft{
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(105, 2, 2);
+    text-shadow: 0px 0px 20px red;
+}
+
+.btnsCont{
+    width: 65%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn{
+
+
+
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+
+    
+
+}
